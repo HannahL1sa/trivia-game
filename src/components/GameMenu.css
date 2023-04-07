@@ -1,0 +1,39 @@
+/* Style the container div */
+.game-menu-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #A80874;
+  }
+  
+  /* Style the h1 element */
+  .game-menu-container h1 {
+    font-size: 80px;
+    margin-bottom: 2rem;
+  }
+  
+  /* Style the p element */
+  .game-menu-container p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+
+  /* Style the button element */
+  .game-menu-container button {
+    background-color: #3C153B;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Style the button element on hover */
+  .game-menu-container button:hover {
+    background-color: #0285f1;
+  }
+  
