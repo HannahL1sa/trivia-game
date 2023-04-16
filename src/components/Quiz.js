@@ -52,9 +52,9 @@ function Quiz() {
   };
 
   return (
-    <div className="quiz-container">
+    <div className="question-container">
       {questions.length > 0 && currentQuestion < questions.length ? (
-        <div className="question-container">
+        <>
           <h2>Question {currentQuestion + 1}</h2>
           <h3 className="question">{questions[currentQuestion].question}</h3>
           <div className="choices">
@@ -66,7 +66,7 @@ function Quiz() {
           </div>
           <button onClick={handleNextQuestion}>Next</button>
           <p className="comment">{comment}</p>
-        </div>
+        </>
       ) : (
         <div className="result-container">
           <h2>Your score is {score}</h2>
@@ -75,6 +75,7 @@ function Quiz() {
       )}
     </div>
   );
+  
 }
 
 export default Quiz;
