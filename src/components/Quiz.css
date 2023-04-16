@@ -9,7 +9,7 @@ body{
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color:  #A80874;
+    background-color:  #008000;
   }
   
   .question-container {
@@ -19,7 +19,7 @@ body{
     justify-content: center;
     text-align: center;
     padding: 20px;
-    background-color: white;
+    background-color: #ece09c;
     border-radius: 10px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
     max-width: 600px;
@@ -38,26 +38,6 @@ body{
     font-family: 'Atma', cursive;
   }
   
-  /*
-  .question-container .choices {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .question-container .choices button {
-    color: black;
-    margin: 10px;
-    padding: 10px 20px;
-    font-size: 16px;
-    border: none;
-    border-radius: 5px;
-    background-color: #af0b0b;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  */
   .question-container .choices {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -72,14 +52,14 @@ body{
     font-size: 16px;
     border: none;
     border-radius: 5px;
-    background-color: #8B9EB7;
+    background-color: #25a325;
     cursor: pointer;
     transition: background-color 0.3s ease;
     height: 100%;
   }
   
   .question-container .choices button:hover {
-    background-color: #745296;
+    background-color: #FFD700;
   }
   
   .question-container button {
@@ -90,7 +70,7 @@ body{
     font-size: 16px;
     border: none;
     border-radius: 5px;
-    background-color: #745296;
+    background-color: #25a325;
     color: black;
     cursor: pointer;
     transition: background-color 0.3s ease;
@@ -106,8 +86,9 @@ body{
     align-items: center;
     justify-content: center;
     text-align: center;
+    color: black;
     padding: 20px;
-    background-color: #fff;
+    background-color: #ece09c;
     border-radius: 10px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
     max-width: 600px;
@@ -125,14 +106,13 @@ body{
     font-size: 16px;
     border: none;
     border-radius: 5px;
-    background-color: #3C153B;
-    color: #fff;
+    background-color: #008000;
     cursor: pointer;
     transition: background-color 0.3s ease;
   }
   
   .result-container button:hover {
-    background-color: #F1D302;
+    background-color: #FFD700;
   }
   
   .score {
