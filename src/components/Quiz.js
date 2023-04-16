@@ -6,6 +6,7 @@ function Quiz() {
   const [questions, setQuestions] = useState([]);
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [score, setScore] = useState(0);
+  const [comment, setComment] = useState("");
 
   useEffect(() => {
     const fetchData = async () => {
@@ -19,22 +20,35 @@ function Quiz() {
     fetchData();
   }, []);
 
+  useEffect(() => {
+    // Update the comment and score on the screen when they change
+  }, [comment, score]);
+
+
   const handleAnswer = (answer) => {
-    if (answer === questions[currentQuestion].answer) {
+    let comment = "";
+    if (answer === questions[currentQuestion].choices[questions[currentQuestion].answer]) {
       console.log("Answer is correct!");
+      comment = "Correct! ";
       setScore(score + 1);
+    } else {
+      console.log("Answer is incorrect.");
+      comment = "Incorrect. ";
     }
+    setComment((prevComment) => prevComment + comment);
   };
   
   
 
   const handleNextQuestion = () => {
     setCurrentQuestion(currentQuestion + 1);
+    setComment("")
   };
 
   const handleRestart = () => {
     setScore(0);
     setCurrentQuestion(0);
+    setComment("");
   };
 
   return (
@@ -51,7 +65,7 @@ function Quiz() {
             ))}
           </div>
           <button onClick={handleNextQuestion}>Next Question</button>
-          <p className="score">Score: {score}</p>
+          <p className="comment">{comment}</p>
         </div>
       ) : (
         <div className="result-container">

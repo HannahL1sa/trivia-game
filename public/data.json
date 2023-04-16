@@ -7,7 +7,7 @@
     {
       "question": "Every hoe have them stick a bush.",
       "choices": ["There is a suitable partner for everyone", "There is no smoke without fire", "There is no such thing as a perfect person or thing", "It takes all sorts to make a world"],
-      "answer": 2
+      "answer": 0
     },
     {
       "question": "Wanti wanti, can't getti; getti getti, no wanti.",
@@ -20,9 +20,9 @@
       "answer": 3
     },
     {
-      "question": "One, one coco full basket.",
-      "choices": ["Rome wasn't built in a day", "Little by little, one goes far", "All good things come to those who wait", "A watched pot never boils"],
-      "answer": 1
+      "question": "Cow never know the use of him tail till him lose it.",
+      "choices": ["You don't appreciate what you have until it's gone", "It's never too late to learn", "Actions speak louder than words", "A little knowledge is a dangerous thing"],
+      "answer": 0
     },
     {
       "question": "Don't tek people things fi joke.",
