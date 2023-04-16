@@ -1,39 +1,54 @@
-/* Style the container div */
 .game-menu-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    background-color: #A80874;
-  }
-  
-  /* Style the h1 element */
-  .game-menu-container h1 {
-    font-size: 80px;
-    margin-bottom: 2rem;
-  }
-  
-  /* Style the p element */
-  .game-menu-container p {
-    font-size: 1.2rem;
-    margin-bottom: 10px;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  max-width: 800px; /* Set a maximum width */
+  margin: 0 auto; /* Center the container horizontally */
+  background-color: #008000; 
+  padding: 50px;
+  border-radius: 10px;
+}
 
-  /* Style the button element */
-  .game-menu-container button {
-    background-color: #3C153B;
-    color: #fff;
-    font-size: 1.2rem;
-    padding: 1rem 2rem;
-    border: none;
-    border-radius: 0.25rem;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  /* Style the button element on hover */
-  .game-menu-container button:hover {
-    background-color: #0285f1;
-  }
-  
+h1 {
+  font-size: 80px;
+  margin-bottom: 20px;
+  color: #FFD700;
+}
+
+h2{
+  color: black;
+}
+
+.rules{
+  flex-direction: column;
+  width: 450px;
+  color: black;
+  font-weight: bold;
+  background-color: #ece09c;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.rules h3 {
+  font-size: 20px;
+  text-align: center;
+  justify-content: center;
+}
+
+.rules p {
+  margin-top: 0; /* Reset the top margin to 0 */
+  text-align: left; /* Align text to the left */
+}
+
+button {
+  background-color: #FFD700;
+  color: black; 
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+}

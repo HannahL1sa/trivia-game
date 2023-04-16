@@ -64,7 +64,7 @@ function Quiz() {
               </button>
             ))}
           </div>
-          <button onClick={handleNextQuestion}>Next Question</button>
+          <button onClick={handleNextQuestion}>Next</button>
           <p className="comment">{comment}</p>
         </div>
       ) : (
