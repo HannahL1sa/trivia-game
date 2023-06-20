@@ -33,7 +33,7 @@ function Quiz() {
       setScore(score + 1);
     } else {
       console.log("Answer is incorrect.");
-      comment = "Incorrect. ";
+      comment = "Incorrect! ";
     }
     setComment((prevComment) => prevComment + comment);
   };

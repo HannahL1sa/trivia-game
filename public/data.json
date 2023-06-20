@@ -1,36 +1,36 @@
 [
     {
-      "question": "Who don't hear will feel.",
-      "choices": ["No one is immune to the consequences of their actions", "Speak softly and carry a big stick", "Actions speak louder than words", "A bird in the hand is worth two in the bush"],
-      "answer": 0
+      "question": "Duppy know who fi frighten",
+      "choices": ["No one is immune to the consequences of their actions", "Speak softly and carry a big stick", "Actions speak louder than words", "Bullies target the most vulnerable people first"],
+      "answer": 3
     },
     {
-      "question": "Every hoe have them stick a bush.",
+      "question": "Every hoe have dem tick a bush",
       "choices": ["There is a suitable partner for everyone", "There is no smoke without fire", "There is no such thing as a perfect person or thing", "It takes all sorts to make a world"],
       "answer": 0
     },
     {
-      "question": "Wanti wanti, can't getti; getti getti, no wanti.",
+      "question": "Wanti wanti, can't getti; getti getti, nuh wanti",
       "choices": ["The grass is always greener on the other side", "Be content with what you have", "You can't always get what you want", "A penny saved is a penny earned"],
       "answer": 1
     },
     {
-      "question": "Chicken merry, hawk deh near.",
-      "choices": ["Don't count your chickens before they hatch", "The early bird catches the worm", "Beware of false friends", "Misery loves company"],
+      "question": "Chicken merry, hawk deh near",
+      "choices": ["Don't count your chickens before they hatch", "The early bird catches the worm", "Beware of false friends", "Stay alert amidst our excitement"],
       "answer": 3
     },
     {
-      "question": "Cow never know the use of him tail till him lose it.",
+      "question": "Cow neva know di use a him tail til him lose it",
       "choices": ["You don't appreciate what you have until it's gone", "It's never too late to learn", "Actions speak louder than words", "A little knowledge is a dangerous thing"],
       "answer": 0
     },
     {
-      "question": "Don't tek people things fi joke.",
+      "question": "Don't tek people tings fi joke",
       "choices": ["Honesty is the best policy", "Treat others how you want to be treated", "Respect other people's property", "The pen is mightier than the sword"],
       "answer": 2
     },
     {
-      "question": "One, one, cocoa full basket,",
+      "question": "One, one, cocoa full basket",
       "choices": ["A little of something is better than a lot of nothing", "Don't put all your eggs in one basket", "You can't have your cake and eat it too", "All that glitters is not gold"],
       "answer": 0
     },
@@ -40,14 +40,14 @@
       "answer": 1
     },
     {
-      "question": "Mouth kibba heart catch.",
-      "choices": ["Think before you speak", "Actions speak louder than words", "A picture is worth a thousand words", "The customer is always right"],
+      "question": "One han' cyaa clap",
+      "choices": ["Success requires collaboration; one person alone cannot achieve everything.", "Actions speak louder than words", "A picture is worth a thousand words", "The customer is always right"],
       "answer": 0
     },
     {
-      "question": "Jack Mandora, me no choose none.",
-      "choices": ["I have no preference", "I'm not in the mood to choose", "I'm not easily swayed", "I'm a man of my word"],
-      "answer": 0
+      "question": "Cockroach nuh business inna fowl fight",
+      "choices": ["I have no preference", "I'm not in the mood to choose", "I'm not easily swayed", "Avoid meddling in matters that are not your concern."],
+      "answer": 3
     }
 ]
   
